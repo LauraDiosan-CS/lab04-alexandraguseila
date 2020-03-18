@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1584546721 source:d:\c++\lab 4 - clase\03.gestiuneapartamente\cheltuiala.cpp
+	"Cheltuiala.h"
+	<string.h>
+
+1584546553 d:\c++\lab 4 - clase\03.gestiuneapartamente\cheltuiala.h
+	<iostream>
+	<string.h>
+
+1584545945 source:d:\c++\lab 4 - clase\03.gestiuneapartamente\main.cpp
+	<iostream>
+	"Tests.h"
+
+1584543403 d:\c++\lab 4 - clase\03.gestiuneapartamente\tests.h
+
+1584544421 source:d:\c++\lab 4 - clase\03.gestiuneapartamente\repo.cpp
+	"Repo.h"
+
+1584543403 d:\c++\lab 4 - clase\03.gestiuneapartamente\repo.h
+	"Cheltuiala.h"
+
+1584547397 source:d:\c++\lab 4 - clase\03.gestiuneapartamente\tests.cpp
+	"Tests.h"
+	"Cheltuiala.h"
+	"Repo.h"
+	<assert.h>
+	<string.h>
+
