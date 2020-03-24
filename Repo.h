@@ -12,9 +12,13 @@ private:
 public:
 	Repo();
 	~Repo();
-	void addCheltuiala(Cheltuiala &c);
 	Cheltuiala getCheltuiala(int pozitie);
 	int getNrCheltuieli();
+	Cheltuiala* getAll();
+	void addCheltuiala(Cheltuiala &c);
+	void updateCheltuiala(Cheltuiala c, int newAp, int newSuma, char* newTip);
+	int deleteCheltuiala(Cheltuiala &c);
+
 };
 
 #endif // REPO_H_INCLUDED

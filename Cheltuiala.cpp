@@ -1,6 +1,7 @@
 #include "Cheltuiala.h"
 #include <string.h>
 
+
 Cheltuiala::Cheltuiala()
 {
 	this->apartament = 0;
@@ -68,5 +69,19 @@ void Cheltuiala::setTip(char* newTip)
 
 bool Cheltuiala::operator==(const Cheltuiala &c)
 {
-    return ((this->apartament==c.apartament) && (this->suma==c.suma) && (strcmp(this->tip, c.tip)));
+    return ((this->apartament==c.apartament) && (this->suma==c.suma) && (strcmp(this->tip, c.tip)==0));
 }
+
+/*void Cheltuiala::afiseaza(Cheltuiala &c)
+{
+    printf("Cheltuiala %d:%d:%d", c.apartament, c.suma, c.tip);
+
+}*/
+
+std::ostream& operator<<(std::ostream& os, const Cheltuiala& c )
+{
+    os<<c.apartament<<" "<<c.suma<<" "<<c.tip;
+    return os;
+}
+
+

@@ -8,5 +8,6 @@ int main()
 {
     testCheltuiala();
     testRepo();
+    testService();
     return 0;
 }

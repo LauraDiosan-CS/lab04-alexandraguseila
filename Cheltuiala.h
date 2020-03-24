@@ -23,6 +23,9 @@ public:
 	void setSuma(int newSuma);
 	void setTip(char* newTip);
 	bool operator==(const Cheltuiala &c);
+	//void afiseaza(Cheltuiala &c);
+	friend std::ostream& operator<<(std::ostream& os, const Cheltuiala& c );
+
 };
 
 #endif // CHELTUIALA_H_INCLUDED
