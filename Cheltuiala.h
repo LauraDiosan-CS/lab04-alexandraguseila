@@ -25,6 +25,7 @@ public:
 	bool operator==(const Cheltuiala &c);
 	//void afiseaza(Cheltuiala &c);
 	friend std::ostream& operator<<(std::ostream& os, const Cheltuiala& c );
+	friend std::istream& operator>>(std::istream& is, Cheltuiala& c);
 
 };
 

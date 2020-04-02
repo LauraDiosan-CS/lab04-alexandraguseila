@@ -40,6 +40,8 @@
 		<Unit filename="Service.h" />
 		<Unit filename="Tests.cpp" />
 		<Unit filename="Tests.h" />
+		<Unit filename="UI.cpp" />
+		<Unit filename="UI.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

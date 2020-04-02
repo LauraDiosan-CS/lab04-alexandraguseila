@@ -24,10 +24,11 @@ int Repo::getNrCheltuieli()
 
 Cheltuiala* Repo::getAll()
 {
-    Cheltuiala* listaCheltuieli = new Cheltuiala[this->nrCheltuieli];
+    /*Cheltuiala* listaCheltuieli = new Cheltuiala[this->nrCheltuieli];
     for(int i=0; i<this->nrCheltuieli; i++)
         listaCheltuieli[i] = this->cheltuieli[i];
-    return listaCheltuieli;
+    return listaCheltuieli;*/
+    return this->cheltuieli;
 }
 
 void Repo::addCheltuiala(Cheltuiala& c)
@@ -35,26 +36,34 @@ void Repo::addCheltuiala(Cheltuiala& c)
 	this->cheltuieli[this->nrCheltuieli++] = c;
 }
 
-void Repo::updateCheltuiala(Cheltuiala c,int newAp, int newSuma, char* newTip)
+void Repo::updateCheltuiala(Cheltuiala initialChelt, Cheltuiala modifiedChelt)
 {
     for(int i=0; i<this->nrCheltuieli; i++)
-        if(this->cheltuieli[i] == c)
+        if(this->cheltuieli[i] == initialChelt)
         {
-            cheltuieli[i].setApartament(newAp);
-            cheltuieli[i].setSuma(newSuma);
-            cheltuieli[i].setTip(newTip);
+            this->cheltuieli[i] = modifiedChelt;
         }
 }
 
-int Repo::deleteCheltuiala(Cheltuiala &c)
+void Repo::deleteCheltuiala(Cheltuiala &c)
 {
-    for(int i=0;i<this->nrCheltuieli;i++)
+    /*for(int i=0;i<this->nrCheltuieli;i++)
         if(this->cheltuieli[i]== c)
         {
-            for(int j=i; j<this->nrCheltuieli; j++)
+            for(int j=i; j<this->nrCheltuieli-1; j++)
                 this->cheltuieli[i] = this->cheltuieli[i+1];
             this->nrCheltuieli--;
-            return 1;
-        }
-    return -1;
+            i--;
+        }*/
+    int pos;
+    int nr = this->nrCheltuieli;
+	for (int i = 0; i < nr; i++)
+		if (this->cheltuieli[i] == c)
+		{
+			pos = i;
+			break;
+		}
+	for (int i = pos; i < nr - 1; i++)
+		this->cheltuieli[i] = this->cheltuieli[i + 1];
+	this->nrCheltuieli--;
 }

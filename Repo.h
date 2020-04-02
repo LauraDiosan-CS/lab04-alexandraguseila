@@ -16,8 +16,8 @@ public:
 	int getNrCheltuieli();
 	Cheltuiala* getAll();
 	void addCheltuiala(Cheltuiala &c);
-	void updateCheltuiala(Cheltuiala c, int newAp, int newSuma, char* newTip);
-	int deleteCheltuiala(Cheltuiala &c);
+	void updateCheltuiala(Cheltuiala initialChelt, Cheltuiala modifiedChelt);
+	void deleteCheltuiala(Cheltuiala &c);
 
 };
 

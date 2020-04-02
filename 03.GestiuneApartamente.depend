@@ -28,21 +28,26 @@
 	<string.h>
 	<iostream>
 
-1585014541 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\cheltuiala.cpp
+1585833116 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\cheltuiala.cpp
 	"Cheltuiala.h"
 	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
 
-1585014571 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\cheltuiala.h
+1585590860 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\cheltuiala.h
 	<iostream>
 	<string.h>
 
-1585073869 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\main.cpp
+1585831763 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\main.cpp
 	<iostream>
 	"Tests.h"
+	"UI.h"
+	"Service.h"
 
-1585072642 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\tests.h
+1585076242 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\tests.h
 
-1585076273 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\tests.cpp
+1585834156 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\tests.cpp
 	"Tests.h"
 	"Cheltuiala.h"
 	"Repo.h"
@@ -51,17 +56,73 @@
 	<string.h>
 	<iostream>
 
-1585075923 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\repo.h
+1585666378 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\repo.h
 	"Cheltuiala.h"
 
-1585075923 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\repo.cpp
+1585833917 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\repo.cpp
 	"Repo.h"
 	<iostream>
 
-1585076256 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\service.cpp
+1585835874 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\service.cpp
 	"Service.h"
 	"Repo.h"
 
-1585075923 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\service.h
+1585835874 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\service.h
 	"Repo.h"
+
+1585836478 source:d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\ui.cpp
+	"UI.h"
+	<iostream>
+
+1585835874 d:\c++\laborator\lab 4 - clase\3.gestiuneapartamente\ui.h
+	"Service.h"
+
+1585833116 source:d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\cheltuiala.cpp
+	"Cheltuiala.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1585590860 d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\cheltuiala.h
+	<iostream>
+	<string.h>
+
+1585831763 source:d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\main.cpp
+	<iostream>
+	"Tests.h"
+	"UI.h"
+	"Service.h"
+
+1585076242 d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\tests.h
+
+1585842426 d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\ui.h
+	"Service.h"
+
+1585842146 d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\service.h
+	"Repo.h"
+
+1585666378 d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\repo.h
+	"Cheltuiala.h"
+
+1585833917 source:d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\repo.cpp
+	"Repo.h"
+	<iostream>
+
+1585842754 source:d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\service.cpp
+	"Service.h"
+	"Repo.h"
+
+1585837867 source:d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\tests.cpp
+	"Tests.h"
+	"Cheltuiala.h"
+	"Repo.h"
+	"Service.h"
+	<assert.h>
+	<string.h>
+	<iostream>
+
+1585842440 source:d:\c++\laborator\lab 4 -5  clase\3.gestiuneapartamente\ui.cpp
+	"UI.h"
+	<iostream>
 
